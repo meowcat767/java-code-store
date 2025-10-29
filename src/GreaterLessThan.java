@@ -5,5 +5,8 @@ public class GreaterLessThan {
         double creditsToGraduate = 180;
         boolean toGrad = creditsEarned > creditsToGraduate;
         System.out.println(toGrad);
+        double creditsAfterSeminar = creditsOfSeminar + creditsEarned;
+        boolean amountTrueToGrad = creditsToGraduate < creditsAfterSeminar;
+        System.out.println(amountTrueToGrad);
     }
 }
